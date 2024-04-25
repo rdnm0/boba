@@ -1,0 +1,214 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    background-color: #6a3093;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    float: left;
+    margin-left: 20px;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+
+.title-page {
+    text-align: center;
+    padding: 200px 0;
+    background-image: linear-gradient(to bottom, rgba(106, 48, 147, 0.8), rgba(106, 48, 147, 0.8)), url('boba-background.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.title-page h2 {
+    font-size: 5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.title-page p {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+
+.section {
+    padding: 120px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 3.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #6a3093;
+}
+
+.menu-item {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu-item img:hover {
+    transform: scale(1.05);
+}
+
+.menu-item h3 {
+    font-size: 2.2em;
+    margin: 20px 0 15px;
+    font-weight: 600;
+    color: #6a3093;
+}
+
+.menu-item p {
+    font-size: 1.3em;
+    color: #555;
+    line-height: 1.8;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #6a3093;
+    color: #fff;
+    padding: 18px 40px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: #8e44ad;
+    transform: translateY(-3px);
+}
+
+
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 18px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+footer {
+    background-color: #6a3093;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.section-bg {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.section-bg h2 {
+    color: #333;
+}
+
+.section-bg p {
+    font-size: 1.4em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
